@@ -1,0 +1,33 @@
+{
+    "name": "com.timocom.service.socket.zmq",
+    "version": "0.0.7",
+    "private": true,
+    "homepage": "http://stash.timocom.net/projects/AURM/repos/com.timocom.service.socket.zmq",
+    "author": "http://stash.timocom.net/projects/AURM/repos/com.timocom.service.socket.zmq/commits",
+    "description": "Aurora API Worker",
+    "keywords": [
+        "zmq",
+        "timocom"
+    ],
+    "dependencies": {
+        "com.timocom.aurora.config": "git+ssh://git@stash.timocom.net:7999/aur/com.timocom.aurora.config.git",
+        "zmq": "2.7.x"
+    },
+    "devDependencies": {
+        "grunt": "0.4.x",
+        "grunt-contrib-jshint": "0.10.x",
+        "load-grunt-tasks": "0.4.x",
+        "mocha": "1.18.x",
+        "should": "0.0.x",
+        "supertest": "0.3.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://stash.timocom.net/scm/aurm/com.timocom.service.socket.zmq.git"
+    },
+    "main": "./lib/com.timocom.service.socket.zmq",
+    "bugs": "http://jira.timocom.net/browse/AUR#selectedTab=com.atlassian.jira.plugin.system.project%3Aissues-panel",
+    "engines": {
+        "node": "*"
+    }
+}
