@@ -13,9 +13,11 @@ This package is part of the [Service Suite](https://github.com/luscus/node-servi
     //TODO
 
 ### Ubuntu
-    sudo apt-get install libzmq3 libzmq3-dev
+    sudo apt-get install build-essential libzmq3 libzmq3-dev
+
 
 ### Windows
     If somebody knows a tutorial that works: please share
 
 ## Usage
+
