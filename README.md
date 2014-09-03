@@ -10,7 +10,7 @@ This package is part of the [Service Suite](https://github.com/luscus/node-servi
 ## OS Dependencies
 
 ### RedHat
-    //TODO
+    yum -y install zeromq3 zeromq3-devel
 
 ### Ubuntu
     sudo apt-get install build-essential libzmq3 libzmq3-dev
