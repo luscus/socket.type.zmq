@@ -27,9 +27,20 @@ socket.on('listen', function (url) {
 })
 
 zmqLib(socket);
+  console.log('socket: ', socket);
+
+  
+  
+var responseCount = 0;
 
 socket.bind(function (data, meta, raw) {
   console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
   console.log('resquest: ', data);
+  
+  if (responseCount === 10) {
+    process.exit();
+  }
+  
+  responseCount += 1;
   return meta;
 });

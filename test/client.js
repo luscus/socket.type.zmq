@@ -25,14 +25,14 @@ var socket = new Socket(client);
 zmqLib(socket);
 
 socket.on('message', function (data, clusterSource) {
-  console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
+  console.log('<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
   console.log('response: ', data);
-  console.log('stats: ', this.connections[clusterSource].stats);
 });
 
 console.log('result',socket);
 
 socket.connect(server.protocol+'://0.0.0.0:'+server.port);
+socket.connect(server.protocol+'://0.0.0.0:'+22001);
 
 setInterval(function () {
   socket.send({timestamp: new Date().toISOString()})

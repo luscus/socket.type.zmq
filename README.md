@@ -2,7 +2,7 @@
 [![dependencies](https://david-dm.org/luscus/socket.type.zmq.png)](https://david-dm.org/luscus/socket.type.zmq)
 [![devDependency Status](https://david-dm.org/luscus/socket.type.zmq/dev-status.svg?theme=shields.io)](https://david-dm.org/luscus/socket.type.zmq#info=devDependencies)
 
-Enables sockets to communicate with a service over multiple hosts and processes.
+Enables sockets to communicate with a service cluster over multiple hosts and processes using the TCP, IPC, inproc protocols.
 
 This package is part of the [Service Suite](https://github.com/luscus/node-service-skeleton).
 
